@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".top10MC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:onClick="bt1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="1. Zijin Mining Group Company Limited"
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="2. Corporacion Nacional del Cobre de Chile (CODELCO)     "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="3.  Freeport-McMoRan   "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="4.  Anglo American  "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="5. China Shenhua Energy Company"
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="6. Jiangxi Copper Corporation Limited          "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="7. Vale S.A.    "
+                android:background="@drawable/round2"
+                />
+            <Button
+                android:onClick="bt8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="8. BHP            "
+                android:background="@drawable/round2"
+                />
+
+            <Button
+                android:onClick="bt9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="      9. Rio Tinto            "
+                android:background="@drawable/round2"
+                />
+            <Button
+                android:onClick="bt10"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:text="10. Glencore       "
+                android:background="@drawable/round2"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

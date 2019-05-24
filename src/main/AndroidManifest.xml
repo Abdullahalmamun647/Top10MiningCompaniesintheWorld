@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pravimanufacturingabc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_mc"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_mc"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".mc10" />
+        <activity android:name=".mc9" />
+        <activity android:name=".mc8" />
+        <activity android:name=".mc7" />
+        <activity android:name=".mc6" />
+        <activity android:name=".top10MC" />
+        <activity android:name=".mc5" />
+        <activity android:name=".mc4" />
+        <activity android:name=".mc3" />
+        <activity android:name=".mc2" />
+        <activity android:name=".mc1" />
+        <activity android:name="com.pravimanufacturingabc.splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
